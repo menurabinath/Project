@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:3001/api';
+const API_BASE = `${window.location.protocol}//localhost:3001/api`;
 
 export interface SearchParams {
   query?: string;
